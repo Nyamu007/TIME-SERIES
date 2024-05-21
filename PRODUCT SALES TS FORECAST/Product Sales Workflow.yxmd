@@ -1,0 +1,2288 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2024.1">
+  <Nodes>
+    <Node ToolID="15">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="59" y="234" width="216" height="144" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Input</Text>
+          <Font name="Lato" size="7.8" style="0" />
+          <TextColor name="Gray" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="16">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="457" y="234" width="216" height="144" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Output</Text>
+          <Font name="Lato" size="7.8" style="0" />
+          <TextColor name="Gray" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="29">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="54" y="54" width="324" height="72" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text />
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="3" />
+          <Justification Justification="4" />
+          <BG_Image>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</BG_Image>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="30">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="450" y="70" width="300" height="40" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Weekly Challenge #24</Text>
+          <Font name="Lato" size="16.2" style="0" />
+          <TextColor name="Gray" />
+          <FillColor name="White" />
+          <Shape shape="3" />
+          <Justification Justification="0" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="31">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="59" y="114" width="612" height="108" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Use Case:  A retailer would like to forecast how many units of a particular product will be purchased from their locations based on a historical trend.
+
+The source data contains weekly data for 2012 and 2013 details how many units have been moved. Some of the data, however, is populated with NULL values. For the NULL values, please assign the monthly average. If the monthly average is also NULL, assigned the annual average.
+
+Objective:  Forecast the number of units that will be sole in the six weeks following the available data.</Text>
+          <Font name="Lato" size="7.8" style="0" />
+          <TextColor name="Gray" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="0" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="91">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="586" y="273" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\User\AppData\Local\Temp\Alteryx\Engine_26936_066467aa31824880bc792e24ee742f0a_\Engine_22292_e9d89543a4684d9e9e8dbdd53ebcf89d_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="92">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="490" y="273" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="6" />
+          <Fields>
+            <Field name="Period" />
+            <Field name="Sub_Period" />
+            <Field name="forecast" />
+            <Field name="forecast_high_95" />
+            <Field name="forecast_high_80" />
+            <Field name="forecast_low_80" />
+            <Field name="forecast_low_95" />
+          </Fields>
+          <Data>
+            <r>
+              <c>3</c>
+              <c>1</c>
+              <c>334.738227235981</c>
+              <c>466.538870124894</c>
+              <c>420.9180354194</c>
+              <c>248.558419052561</c>
+              <c>202.937584347067</c>
+            </r>
+            <r>
+              <c>3</c>
+              <c>2</c>
+              <c>293.126437836262</c>
+              <c>458.114318864577</c>
+              <c>401.006214656417</c>
+              <c>185.246661016106</c>
+              <c>128.138556807947</c>
+            </r>
+            <r>
+              <c>3</c>
+              <c>3</c>
+              <c>261.793005511522</c>
+              <c>442.916500671652</c>
+              <c>380.223293317982</c>
+              <c>143.362717705063</c>
+              <c>80.6695103513928</c>
+            </r>
+            <r>
+              <c>3</c>
+              <c>4</c>
+              <c>238.199115524766</c>
+              <c>427.862652462762</c>
+              <c>362.213436505595</c>
+              <c>114.184794543937</c>
+              <c>48.5355785867698</c>
+            </r>
+            <r>
+              <c>3</c>
+              <c>5</c>
+              <c>220.433055332642</c>
+              <c>414.772150701645</c>
+              <c>347.504559646592</c>
+              <c>93.361551018693</c>
+              <c>26.0939599636397</c>
+            </r>
+            <r>
+              <c>3</c>
+              <c>6</c>
+              <c>207.055316649986</c>
+              <c>403.996148338425</c>
+              <c>335.828004903848</c>
+              <c>78.2826283961243</c>
+              <c>10.1144849615482</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="93">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="190" y="273" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\User\AppData\Local\Temp\Alteryx\Engine_26936_066467aa31824880bc792e24ee742f0a_\Engine_22292_dd0fd6afee8d4512b2f2d28568bdbe5f_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="94">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="82" y="273" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="104" />
+          <Fields>
+            <Field name="Product" />
+            <Field name="Fiscal Year" />
+            <Field name="Fiscal Month" />
+            <Field name="Fiscal Week Number" />
+            <Field name="Units" />
+          </Fields>
+          <Data>
+            <r>
+              <c>Widget</c>
+              <c>2012</c>
+              <c><![CDATA[2012-01-January        ]]></c>
+              <c>2012-01</c>
+              <c>81</c>
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2012</c>
+              <c><![CDATA[2012-01-January        ]]></c>
+              <c>2012-02</c>
+              <c>51</c>
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2012</c>
+              <c><![CDATA[2012-01-January        ]]></c>
+              <c>2012-03</c>
+              <c>52</c>
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2012</c>
+              <c><![CDATA[2012-01-January        ]]></c>
+              <c>2012-04</c>
+              <c>72</c>
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2012</c>
+              <c><![CDATA[2012-02-February       ]]></c>
+              <c>2012-05</c>
+              <c>85</c>
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2012</c>
+              <c><![CDATA[2012-02-February       ]]></c>
+              <c>2012-06</c>
+              <c>74</c>
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2012</c>
+              <c><![CDATA[2012-02-February       ]]></c>
+              <c>2012-07</c>
+              <c>104</c>
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2012</c>
+              <c><![CDATA[2012-02-February       ]]></c>
+              <c>2012-08</c>
+              <c>126</c>
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2012</c>
+              <c><![CDATA[2012-03-March          ]]></c>
+              <c>2012-09</c>
+              <c>139</c>
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2012</c>
+              <c><![CDATA[2012-03-March          ]]></c>
+              <c>2012-10</c>
+              <c>149</c>
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2012</c>
+              <c><![CDATA[2012-03-March          ]]></c>
+              <c>2012-11</c>
+              <c>192</c>
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2012</c>
+              <c><![CDATA[2012-03-March          ]]></c>
+              <c>2012-12</c>
+              <c>224</c>
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2012</c>
+              <c><![CDATA[2012-03-March          ]]></c>
+              <c>2012-13</c>
+              <c>255</c>
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2012</c>
+              <c><![CDATA[2012-04-April          ]]></c>
+              <c>2012-14</c>
+              <c />
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2012</c>
+              <c><![CDATA[2012-04-April          ]]></c>
+              <c>2012-15</c>
+              <c>209</c>
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2012</c>
+              <c><![CDATA[2012-04-April          ]]></c>
+              <c>2012-16</c>
+              <c>262</c>
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2012</c>
+              <c><![CDATA[2012-04-April          ]]></c>
+              <c>2012-17</c>
+              <c>217</c>
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2012</c>
+              <c><![CDATA[2012-05-May            ]]></c>
+              <c>2012-18</c>
+              <c>247</c>
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2012</c>
+              <c><![CDATA[2012-05-May            ]]></c>
+              <c>2012-19</c>
+              <c>231</c>
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2012</c>
+              <c><![CDATA[2012-05-May            ]]></c>
+              <c>2012-20</c>
+              <c>247</c>
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2012</c>
+              <c><![CDATA[2012-05-May            ]]></c>
+              <c>2012-21</c>
+              <c>226</c>
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2012</c>
+              <c><![CDATA[2012-06-June           ]]></c>
+              <c>2012-22</c>
+              <c>236</c>
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2012</c>
+              <c><![CDATA[2012-06-June           ]]></c>
+              <c>2012-23</c>
+              <c>250</c>
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2012</c>
+              <c><![CDATA[2012-06-June           ]]></c>
+              <c>2012-24</c>
+              <c>482</c>
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2012</c>
+              <c><![CDATA[2012-06-June           ]]></c>
+              <c>2012-25</c>
+              <c>303</c>
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2012</c>
+              <c><![CDATA[2012-06-June           ]]></c>
+              <c>2012-26</c>
+              <c>222</c>
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2012</c>
+              <c><![CDATA[2012-07-July           ]]></c>
+              <c>2012-27</c>
+              <c>208</c>
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2012</c>
+              <c><![CDATA[2012-07-July           ]]></c>
+              <c>2012-28</c>
+              <c />
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2012</c>
+              <c><![CDATA[2012-07-July           ]]></c>
+              <c>2012-29</c>
+              <c>209</c>
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2012</c>
+              <c><![CDATA[2012-07-July           ]]></c>
+              <c>2012-30</c>
+              <c>174</c>
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2012</c>
+              <c><![CDATA[2012-08-August         ]]></c>
+              <c>2012-31</c>
+              <c />
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2012</c>
+              <c><![CDATA[2012-08-August         ]]></c>
+              <c>2012-32</c>
+              <c>154</c>
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2012</c>
+              <c><![CDATA[2012-08-August         ]]></c>
+              <c>2012-33</c>
+              <c>185</c>
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2012</c>
+              <c><![CDATA[2012-08-August         ]]></c>
+              <c>2012-34</c>
+              <c>159</c>
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2012</c>
+              <c><![CDATA[2012-09-September      ]]></c>
+              <c>2012-35</c>
+              <c>127</c>
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2012</c>
+              <c><![CDATA[2012-09-September      ]]></c>
+              <c>2012-36</c>
+              <c>124</c>
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2012</c>
+              <c><![CDATA[2012-09-September      ]]></c>
+              <c>2012-37</c>
+              <c>100</c>
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2012</c>
+              <c><![CDATA[2012-09-September      ]]></c>
+              <c>2012-38</c>
+              <c>116</c>
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2012</c>
+              <c><![CDATA[2012-09-September      ]]></c>
+              <c>2012-39</c>
+              <c>104</c>
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2012</c>
+              <c><![CDATA[2012-10-October        ]]></c>
+              <c>2012-40</c>
+              <c />
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2012</c>
+              <c><![CDATA[2012-10-October        ]]></c>
+              <c>2012-41</c>
+              <c>101</c>
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2012</c>
+              <c><![CDATA[2012-10-October        ]]></c>
+              <c>2012-42</c>
+              <c>71</c>
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2012</c>
+              <c><![CDATA[2012-10-October        ]]></c>
+              <c>2012-43</c>
+              <c>53</c>
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2012</c>
+              <c><![CDATA[2012-11-November       ]]></c>
+              <c>2012-44</c>
+              <c>61</c>
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2012</c>
+              <c><![CDATA[2012-11-November       ]]></c>
+              <c>2012-45</c>
+              <c>55</c>
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2012</c>
+              <c><![CDATA[2012-11-November       ]]></c>
+              <c>2012-46</c>
+              <c>48</c>
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2012</c>
+              <c><![CDATA[2012-11-November       ]]></c>
+              <c>2012-47</c>
+              <c>91</c>
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2012</c>
+              <c><![CDATA[2012-12-December       ]]></c>
+              <c>2012-48</c>
+              <c>75</c>
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2012</c>
+              <c><![CDATA[2012-12-December       ]]></c>
+              <c>2012-49</c>
+              <c>167</c>
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2012</c>
+              <c><![CDATA[2012-12-December       ]]></c>
+              <c>2012-50</c>
+              <c>261</c>
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2012</c>
+              <c><![CDATA[2012-12-December       ]]></c>
+              <c>2012-51</c>
+              <c>512</c>
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2012</c>
+              <c><![CDATA[2012-12-December       ]]></c>
+              <c>2012-52</c>
+              <c>258</c>
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2013</c>
+              <c><![CDATA[2013-01-January        ]]></c>
+              <c>2013-01</c>
+              <c>95</c>
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2013</c>
+              <c><![CDATA[2013-01-January        ]]></c>
+              <c>2013-02</c>
+              <c>50</c>
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2013</c>
+              <c><![CDATA[2013-01-January        ]]></c>
+              <c>2013-03</c>
+              <c>60</c>
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2013</c>
+              <c><![CDATA[2013-01-January        ]]></c>
+              <c>2013-04</c>
+              <c>65</c>
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2013</c>
+              <c><![CDATA[2013-02-February       ]]></c>
+              <c>2013-05</c>
+              <c>93</c>
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2013</c>
+              <c><![CDATA[2013-02-February       ]]></c>
+              <c>2013-06</c>
+              <c>126</c>
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2013</c>
+              <c><![CDATA[2013-02-February       ]]></c>
+              <c>2013-07</c>
+              <c>129</c>
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2013</c>
+              <c><![CDATA[2013-02-February       ]]></c>
+              <c>2013-08</c>
+              <c>90</c>
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2013</c>
+              <c><![CDATA[2013-03-March          ]]></c>
+              <c>2013-09</c>
+              <c>103</c>
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2013</c>
+              <c><![CDATA[2013-03-March          ]]></c>
+              <c>2013-10</c>
+              <c>101</c>
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2013</c>
+              <c><![CDATA[2013-03-March          ]]></c>
+              <c>2013-11</c>
+              <c>124</c>
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2013</c>
+              <c><![CDATA[2013-03-March          ]]></c>
+              <c>2013-12</c>
+              <c>120</c>
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2013</c>
+              <c><![CDATA[2013-03-March          ]]></c>
+              <c>2013-13</c>
+              <c>166</c>
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2013</c>
+              <c><![CDATA[2013-04-April          ]]></c>
+              <c>2013-14</c>
+              <c>152</c>
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2013</c>
+              <c><![CDATA[2013-04-April          ]]></c>
+              <c>2013-15</c>
+              <c />
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2013</c>
+              <c><![CDATA[2013-04-April          ]]></c>
+              <c>2013-16</c>
+              <c>238</c>
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2013</c>
+              <c><![CDATA[2013-04-April          ]]></c>
+              <c>2013-17</c>
+              <c />
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2013</c>
+              <c><![CDATA[2013-05-May            ]]></c>
+              <c>2013-18</c>
+              <c />
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2013</c>
+              <c><![CDATA[2013-05-May            ]]></c>
+              <c>2013-19</c>
+              <c />
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2013</c>
+              <c><![CDATA[2013-05-May            ]]></c>
+              <c>2013-20</c>
+              <c />
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2013</c>
+              <c><![CDATA[2013-05-May            ]]></c>
+              <c>2013-21</c>
+              <c />
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2013</c>
+              <c><![CDATA[2013-06-June           ]]></c>
+              <c>2013-22</c>
+              <c />
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2013</c>
+              <c><![CDATA[2013-06-June           ]]></c>
+              <c>2013-23</c>
+              <c>254</c>
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2013</c>
+              <c><![CDATA[2013-06-June           ]]></c>
+              <c>2013-24</c>
+              <c>425</c>
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2013</c>
+              <c><![CDATA[2013-06-June           ]]></c>
+              <c>2013-25</c>
+              <c>299</c>
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2013</c>
+              <c><![CDATA[2013-06-June           ]]></c>
+              <c>2013-26</c>
+              <c />
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2013</c>
+              <c><![CDATA[2013-07-July           ]]></c>
+              <c>2013-27</c>
+              <c />
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2013</c>
+              <c><![CDATA[2013-07-July           ]]></c>
+              <c>2013-28</c>
+              <c>160</c>
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2013</c>
+              <c><![CDATA[2013-07-July           ]]></c>
+              <c>2013-29</c>
+              <c>163</c>
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2013</c>
+              <c><![CDATA[2013-07-July           ]]></c>
+              <c>2013-30</c>
+              <c />
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2013</c>
+              <c><![CDATA[2013-08-August         ]]></c>
+              <c>2013-31</c>
+              <c>152</c>
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2013</c>
+              <c><![CDATA[2013-08-August         ]]></c>
+              <c>2013-32</c>
+              <c>168</c>
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2013</c>
+              <c><![CDATA[2013-08-August         ]]></c>
+              <c>2013-33</c>
+              <c />
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2013</c>
+              <c><![CDATA[2013-08-August         ]]></c>
+              <c>2013-34</c>
+              <c>140</c>
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2013</c>
+              <c><![CDATA[2013-08-August         ]]></c>
+              <c>2013-35</c>
+              <c>119</c>
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2013</c>
+              <c><![CDATA[2013-09-September      ]]></c>
+              <c>2013-36</c>
+              <c>135</c>
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2013</c>
+              <c><![CDATA[2013-09-September      ]]></c>
+              <c>2013-37</c>
+              <c>111</c>
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2013</c>
+              <c><![CDATA[2013-09-September      ]]></c>
+              <c>2013-38</c>
+              <c>79</c>
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2013</c>
+              <c><![CDATA[2013-09-September      ]]></c>
+              <c>2013-39</c>
+              <c>72</c>
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2013</c>
+              <c><![CDATA[2013-10-October        ]]></c>
+              <c>2013-40</c>
+              <c />
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2013</c>
+              <c><![CDATA[2013-10-October        ]]></c>
+              <c>2013-41</c>
+              <c>67</c>
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2013</c>
+              <c><![CDATA[2013-10-October        ]]></c>
+              <c>2013-42</c>
+              <c>61</c>
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2013</c>
+              <c><![CDATA[2013-10-October        ]]></c>
+              <c>2013-43</c>
+              <c>50</c>
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2013</c>
+              <c><![CDATA[2013-11-November       ]]></c>
+              <c>2013-44</c>
+              <c>41</c>
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2013</c>
+              <c><![CDATA[2013-11-November       ]]></c>
+              <c>2013-45</c>
+              <c>44</c>
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2013</c>
+              <c><![CDATA[2013-11-November       ]]></c>
+              <c>2013-46</c>
+              <c />
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2013</c>
+              <c><![CDATA[2013-11-November       ]]></c>
+              <c>2013-47</c>
+              <c>62</c>
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2013</c>
+              <c><![CDATA[2013-11-November       ]]></c>
+              <c>2013-48</c>
+              <c>122</c>
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2013</c>
+              <c><![CDATA[2013-12-December       ]]></c>
+              <c>2013-49</c>
+              <c>158</c>
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2013</c>
+              <c><![CDATA[2013-12-December       ]]></c>
+              <c>2013-50</c>
+              <c>295</c>
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2013</c>
+              <c><![CDATA[2013-12-December       ]]></c>
+              <c>2013-51</c>
+              <c>541</c>
+            </r>
+            <r>
+              <c>Widget</c>
+              <c>2013</c>
+              <c><![CDATA[2013-12-December       ]]></c>
+              <c>2013-52</c>
+              <c>390</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="107">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="1038" y="666" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Fiscal Week Number" selected="True" />
+            <SelectField field="Units" selected="True" />
+            <SelectField field="Year" selected="True" />
+            <SelectField field="Month" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="110">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.RecordID.RecordID">
+        <Position x="1110" y="666" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FieldName>RecordID</FieldName>
+          <StartValue>1</StartValue>
+          <FieldType>Int32</FieldType>
+          <FieldSize>6</FieldSize>
+          <Position>0</Position>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRecordID" />
+    </Node>
+    <Node ToolID="139">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="356" y="475" width="653" height="224" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Data Manipulation</Caption>
+          <Style TextColor="#314c4a" FillColor="#ffffff" BorderColor="#314c4a" Transparency="25" Margin="10" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Data Manipulation</AnnotationText>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="95">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.TextToColumns.TextToColumns">
+            <Position x="366" y="509" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Field>Fiscal Month</Field>
+              <ErrorHandling>Ignore</ErrorHandling>
+              <RootName>Fiscal Month</RootName>
+              <Delimeters value="-|\s" />
+              <NumFields value="3" />
+              <Flags value="0" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextToColumns" />
+        </Node>
+        <Node ToolID="96">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="462" y="510" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Product" selected="True" />
+                <SelectField field="Fiscal Week Number" selected="True" />
+                <SelectField field="Units" selected="True" />
+                <SelectField field="Fiscal Month1" selected="True" rename="Year" />
+                <SelectField field="Fiscal Month2" selected="True" rename="Month" />
+                <SelectField field="Fiscal Month3" selected="True" rename="Month Name" />
+                <SelectField field="*Unknown" selected="False" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="100">
+          <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+            <Position x="546" y="570" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <SummarizeFields>
+                <SummarizeField field="Year" action="GroupBy" rename="Year" />
+                <SummarizeField field="Month" action="GroupBy" rename="Month" />
+                <SummarizeField field="Units" action="Avg" rename="Monthly_Avg_Units" />
+              </SummarizeFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+        </Node>
+        <Node ToolID="101">
+          <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+            <Position x="546" y="630" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <SummarizeFields>
+                <SummarizeField field="Year" action="GroupBy" rename="Year" />
+                <SummarizeField field="Units" action="Avg" rename="Yearly_Avg_Units" />
+              </SummarizeFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+        </Node>
+        <Node ToolID="102">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+            <Position x="642" y="582" />
+          </GuiSettings>
+          <Properties>
+            <Configuration joinByRecordPos="False">
+              <JoinInfo connection="Left">
+                <Field field="Year" />
+              </JoinInfo>
+              <JoinInfo connection="Right">
+                <Field field="Year" />
+              </JoinInfo>
+              <SelectConfiguration>
+                <Configuration outputConnection="Join">
+                  <OrderChanged value="False" />
+                  <CommaDecimal value="False" />
+                  <SelectFields>
+                    <SelectField field="Right_Year" selected="False" rename="Right_Year" input="Right_" />
+                    <SelectField field="*Unknown" selected="True" />
+                  </SelectFields>
+                </Configuration>
+              </SelectConfiguration>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+        </Node>
+        <Node ToolID="104">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+            <Position x="738" y="582" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FormulaFields>
+                <FormulaField expression="IIF(IsNull([Monthly_Avg_Units]), [Yearly_Avg_Units], [Monthly_Avg_Units])" field="imputation" size="2" type="Int16" />
+              </FormulaFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <AnnotationText>imputation</AnnotationText>
+              <DefaultAnnotationText>imputation = IIF(IsNull([Monthly_Avg_Units]), [Yearly_Avg_Units], [Monthly_Avg_U...</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+        </Node>
+        <Node ToolID="105">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+            <Position x="846" y="522" />
+          </GuiSettings>
+          <Properties>
+            <Configuration joinByRecordPos="False">
+              <JoinInfo connection="Left">
+                <Field field="Year" />
+                <Field field="Month" />
+              </JoinInfo>
+              <JoinInfo connection="Right">
+                <Field field="Year" />
+                <Field field="Month" />
+              </JoinInfo>
+              <SelectConfiguration>
+                <Configuration outputConnection="Join">
+                  <OrderChanged value="False" />
+                  <CommaDecimal value="False" />
+                  <SelectFields>
+                    <SelectField field="Left_Product" selected="True" input="Left_" />
+                    <SelectField field="Left_Fiscal Week Number" selected="True" input="Left_" />
+                    <SelectField field="Left_Units" selected="True" input="Left_" />
+                    <SelectField field="Left_Year" selected="True" input="Left_" />
+                    <SelectField field="Left_Month" selected="True" input="Left_" />
+                    <SelectField field="Left_Month Name" selected="True" input="Left_" />
+                    <SelectField field="Right_Year" selected="False" rename="Right_Year" input="Right_" />
+                    <SelectField field="Right_Month" selected="False" rename="Right_Month" input="Right_" />
+                    <SelectField field="Right_imputation" selected="True" input="Right_" />
+                    <SelectField field="*Unknown" selected="False" />
+                  </SelectFields>
+                </Configuration>
+              </SelectConfiguration>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+        </Node>
+        <Node ToolID="106">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+            <Position x="930" y="522" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FormulaFields>
+                <FormulaField expression="IIF(IsNull([Units]), [imputation], [Units])" field="Units" size="2" type="Int16" />
+              </FormulaFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <AnnotationText>imputation</AnnotationText>
+              <DefaultAnnotationText><![CDATA[Units = IIF(IsNull([Units]), [imputation], [Units])
+]]></DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+        </Node>
+      </ChildNodes>
+    </Node>
+    <Node ToolID="141">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="1505" y="197" width="131" height="24" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Compare</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="True" />
+          <Folded value="True" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Compare</AnnotationText>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="137">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+            <Position x="1530" y="246" />
+          </GuiSettings>
+          <Properties>
+            <Configuration joinByRecordPos="False">
+              <JoinInfo connection="Left">
+                <Field field="Period" />
+                <Field field="Sub_Period" />
+              </JoinInfo>
+              <JoinInfo connection="Right">
+                <Field field="Period" />
+                <Field field="Sub_Period" />
+              </JoinInfo>
+              <SelectConfiguration>
+                <Configuration outputConnection="Join">
+                  <OrderChanged value="False" />
+                  <CommaDecimal value="False" />
+                  <SelectFields>
+                    <SelectField field="Left_Period" selected="True" input="Left_" />
+                    <SelectField field="Left_Sub_Period" selected="True" input="Left_" />
+                    <SelectField field="Left_forecast" selected="True" input="Left_" />
+                    <SelectField field="Right_Period" selected="False" rename="Right_Period" input="Right_" />
+                    <SelectField field="Right_Sub_Period" selected="False" rename="Right_Sub_Period" input="Right_" />
+                    <SelectField field="Right_forecast" selected="True" rename="Right_forecast" input="Right_" />
+                    <SelectField field="Right_forecast_high_95" selected="False" rename="Right_forecast_high_95" input="Right_" />
+                    <SelectField field="Right_forecast_high_80" selected="False" rename="Right_forecast_high_80" input="Right_" />
+                    <SelectField field="Right_forecast_low_80" selected="False" rename="Right_forecast_low_80" input="Right_" />
+                    <SelectField field="Right_forecast_low_95" selected="False" rename="Right_forecast_low_95" input="Right_" />
+                    <SelectField field="*Unknown" selected="False" />
+                  </SelectFields>
+                </Configuration>
+              </SelectConfiguration>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+        </Node>
+        <Node ToolID="138">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="1650" y="246" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\Users\marjo\AppData\Local\Temp\Engine_246924_c57d1f3271534ce084deb8603348fba4_\Engine_254124_bd41634b5b0441899ca1498ac09273dd_.yxdb</TempFile>
+              <TempFileDataProfiling />
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100" />
+                <View1>
+                  <DefaultTab>Profile</DefaultTab>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+                <View2 />
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+      </ChildNodes>
+    </Node>
+    <Node ToolID="162">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="388" y="1265" width="125" height="50" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Tableau</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Tableau</AnnotationText>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="143">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
+            <Position x="618" y="1362" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <ByName_ErrorMode>Warning</ByName_ErrorMode>
+              <ByName_OutputMode>All</ByName_OutputMode>
+              <Mode>ByName</Mode>
+              <SetOutputOrder value="True" />
+              <OutputOrder>
+                <Connection>#1</Connection>
+                <Connection>#2</Connection>
+              </OutputOrder>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnion" />
+        </Node>
+        <Node ToolID="144">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="714" y="1362" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="153">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.FindReplace.FindReplace">
+            <Position x="798" y="1374" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FieldFind>Fiscal Week Number</FieldFind>
+              <FieldSearch>Week</FieldSearch>
+              <ReplaceFoundField>Month</ReplaceFoundField>
+              <FindMode>FindAny</FindMode>
+              <NoCase value="False" />
+              <MatchWholeWord value="False" />
+              <ReplaceMode>Append</ReplaceMode>
+              <ReplaceMultipleFound value="True" />
+              <ReplaceAppendFields>
+                <Field field="RecordID" />
+              </ReplaceAppendFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFindReplace" />
+        </Node>
+        <Node ToolID="154">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="1374" y="1386" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\Users\User\AppData\Local\Temp\Alteryx\Engine_26936_066467aa31824880bc792e24ee742f0a_\Engine_22292_23d297431d0d4c90b63590184d27c16d_.yxdb</TempFile>
+              <TempFileDataProfiling />
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100" />
+                <View1>
+                  <DefaultTab>Profile</DefaultTab>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+                <View2 />
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+        <Node ToolID="155">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="498" y="1314" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="forecast" selected="True" rename="Units" />
+                <SelectField field="*Unknown" selected="False" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="156">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.MultiRowFormula.MultiRowFormula">
+            <Position x="894" y="1374" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <UpdateField value="True" />
+              <UpdateField_Name>RecordID</UpdateField_Name>
+              <CreateField_Name>New Field</CreateField_Name>
+              <CreateField_Type>Int32</CreateField_Type>
+              <CreateField_Size>4</CreateField_Size>
+              <OtherRows>Empty</OtherRows>
+              <NumRows value="1" />
+              <Expression>IF !ISNULL([Row-1:RecordID]) AND ISNULL([RecordID]) THEN [Row-1:RecordID]+1 ELSE [RecordID] ENDIF</Expression>
+              <GroupByFields />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <AnnotationText>FFill</AnnotationText>
+              <DefaultAnnotationText>IF !ISNULL([Row-1:RecordID]) AND ISNULL([RecordID]) THEN [Row...</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMultiRowFormula" />
+        </Node>
+        <Node ToolID="158">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.FindReplace.FindReplace">
+            <Position x="1086" y="1386" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FieldFind>RecordID</FieldFind>
+              <FieldSearch>RecordID</FieldSearch>
+              <ReplaceFoundField>Month</ReplaceFoundField>
+              <FindMode>FindAny</FindMode>
+              <NoCase value="False" />
+              <MatchWholeWord value="False" />
+              <ReplaceMode>Append</ReplaceMode>
+              <ReplaceMultipleFound value="True" />
+              <ReplaceAppendFields>
+                <Field field="Date" />
+                <Field field="Year" />
+                <Field field="Month" />
+              </ReplaceAppendFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFindReplace" />
+        </Node>
+        <Node ToolID="159">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="990" y="1374" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Year" selected="False" />
+                <SelectField field="Month" selected="False" />
+                <SelectField field="RecordID" selected="True" type="V_WString" size="2147483647" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="160">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="977" y="1554" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="RecordID" selected="True" type="V_WString" size="2147483647" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="161">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="1278" y="1386" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="True" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Fiscal Week Number" selected="False" />
+                <SelectField field="Date" selected="True" />
+                <SelectField field="Units" selected="True" />
+                <SelectField field="Year" selected="True" />
+                <SelectField field="Month" selected="True" />
+                <SelectField field="RecordID" selected="False" />
+                <SelectField field="forcaste" selected="False" />
+                <SelectField field="forecast" selected="True" />
+                <SelectField field="*Unknown" selected="False" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="151">
+          <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+            <Position x="413" y="1505" width="130" height="50" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Caption>Calendar</Caption>
+              <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+              <Disabled value="False" />
+              <Folded value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <AnnotationText>Calendar</AnnotationText>
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <ChildNodes>
+            <Node ToolID="147">
+              <GuiSettings Plugin="AlteryxBasePluginsGui.GenerateRows.GenerateRows">
+                <Position x="438" y="1554" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <UpdateField value="False" />
+                  <UpdateField_Name />
+                  <CreateField_Name>Date</CreateField_Name>
+                  <CreateField_Type>Date</CreateField_Type>
+                  <CreateField_Size>10</CreateField_Size>
+                  <Expression_Init>"2012-01-01"</Expression_Init>
+                  <Expression_Cond>[Date] &lt; "2015-01-01"</Expression_Cond>
+                  <Expression_Loop>DateTimeAdd([Date],1,'days')</Expression_Loop>
+                  <RecordCount value="1096" />
+                  <RecordCount value="0" />
+                  <RecordCount value="0" />
+                  <RecordCount value="0" />
+                  <RecordCount value="0" />
+                  <RecordCount value="0" />
+                  <RecordCount value="0" />
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText />
+                  <Left value="False" />
+                </Annotation>
+              </Properties>
+              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxGenerateRows" />
+            </Node>
+            <Node ToolID="149">
+              <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+                <Position x="534" y="1554" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <FormulaFields>
+                    <FormulaField expression="DateTimeYear([Date])" field="Year" size="1073741823" type="V_WString" />
+                    <FormulaField expression="DateTimeMonth([Date])" field="Month" size="1073741823" type="V_WString" />
+                    <FormulaField expression="ToString(DateTimeYear([Date]))+&quot;-&quot;+ToString(DateTimeFormat([Date],'%W'))" field="Week" size="1073741823" type="V_WString" />
+                  </FormulaFields>
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <AnnotationText>Attributes</AnnotationText>
+                  <DefaultAnnotationText>Year = DateTimeYear([Date])
+Month = DateTimeMonth([Date])
+Week = ToString(DateTi...</DefaultAnnotationText>
+                  <Left value="False" />
+                </Annotation>
+              </Properties>
+              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+            </Node>
+            <Node ToolID="152">
+              <GuiSettings Plugin="AlteryxBasePluginsGui.Sample.Sample">
+                <Position x="618" y="1554" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <Mode>First</Mode>
+                  <N>1</N>
+                  <GroupFields orderChanged="False">
+                    <Field name="Week" />
+                  </GroupFields>
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText>First 1 rows</DefaultAnnotationText>
+                  <Left value="False" />
+                </Annotation>
+              </Properties>
+              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSample" />
+            </Node>
+            <Node ToolID="157">
+              <GuiSettings Plugin="AlteryxBasePluginsGui.RecordID.RecordID">
+                <Position x="678" y="1554" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <FieldName>RecordID</FieldName>
+                  <StartValue>1</StartValue>
+                  <FieldType>Int32</FieldType>
+                  <FieldSize>6</FieldSize>
+                  <Position>1</Position>
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText />
+                  <Left value="False" />
+                </Annotation>
+              </Properties>
+              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRecordID" />
+            </Node>
+          </ChildNodes>
+        </Node>
+        <Node ToolID="163">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+            <Position x="1182" y="1386" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FormulaFields>
+                <FormulaField expression="IIF(IsNull([Fiscal Week Number]), 'Forecast', 'Actuals')" field="forecast" size="1073741823" type="V_WString" />
+              </FormulaFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <AnnotationText>forecast</AnnotationText>
+              <DefaultAnnotationText><![CDATA[forecast = IIF(IsNull([Fiscal Week Number]), 'Forecast', 'Actuals')
+]]></DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+        </Node>
+      </ChildNodes>
+    </Node>
+    <Node ToolID="140">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="1204" y="556" width="614" height="267" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Modeling</Caption>
+          <Style TextColor="#314c4a" FillColor="#ffffff" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Modeling</AnnotationText>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="136">
+          <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+            <Position x="1505" y="605" width="217" height="133" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Caption>ARIMA forecast</Caption>
+              <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+              <Disabled value="False" />
+              <Folded value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <AnnotationText>ARIMA forecast</AnnotationText>
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <ChildNodes>
+            <Node ToolID="132">
+              <GuiSettings>
+                <Position x="1530" y="654" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <Value name="forecast">forecast</Value>
+                  <Value name="large_conf">95</Value>
+                  <Value name="small_conf">80</Value>
+                  <Value name="horizon">6</Value>
+                  <Value name="inches">True</Value>
+                  <Value name="in.w">5.50</Value>
+                  <Value name="in.h">5.50</Value>
+                  <Value name="centimeters">False</Value>
+                  <Value name="cm.w">13.00</Value>
+                  <Value name="cm.h">14.95</Value>
+                  <Value name="graph.resolution">1x</Value>
+                  <Value name="pointsize">10</Value>
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText />
+                  <Left value="False" />
+                </Annotation>
+                <MetaInfo connection="Output">
+                  <RecordInfo>
+                    <Field name="Period" source="R-DATA:" type="Double" />
+                    <Field name="Sub_Period" source="R-DATA:" type="Int32" />
+                    <Field name="forecast" source="R-DATA:" type="Double" />
+                    <Field name="forecast_high_95" source="R-DATA:" type="Double" />
+                    <Field name="forecast_high_80" source="R-DATA:" type="Double" />
+                    <Field name="forecast_low_80" source="R-DATA:" type="Double" />
+                    <Field name="forecast_low_95" source="R-DATA:" type="Double" />
+                  </RecordInfo>
+                </MetaInfo>
+                <MetaInfo connection="Interactive Viz">
+                  <RecordInfo>
+                    <Field name="Text" size="1073741823" source="Report:Text:" type="V_WString" />
+                  </RecordInfo>
+                </MetaInfo>
+                <MetaInfo connection="Report">
+                  <RecordInfo>
+                    <Field name="Report" size="1073741823" source="Report: (Multiple Sources)" type="V_WString" />
+                    <Field name="Desc" size="64" source="Formula: (Multiple Sources)" type="V_String" />
+                  </RecordInfo>
+                </MetaInfo>
+              </Properties>
+              <EngineSettings Macro="Predictive Tools\TS_Forecast.yxmc" />
+            </Node>
+            <Node ToolID="165">
+              <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+                <Position x="1638" y="654" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <TempFile>C:\Users\User\AppData\Local\Temp\Alteryx\Engine_26936_066467aa31824880bc792e24ee742f0a_\Engine_22292_524de38ced934e279cad7372eea65d5f_.yxdb</TempFile>
+                  <TempFileDataProfiling />
+                  <Layout>
+                    <ViewMode>Single</ViewMode>
+                    <ViewSize value="100" />
+                    <View1>
+                      <DefaultTab>Report</DefaultTab>
+                      <Hints>
+                        <Table />
+                      </Hints>
+                    </View1>
+                    <View2 />
+                  </Layout>
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText />
+                  <Left value="False" />
+                </Annotation>
+              </Properties>
+              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+            </Node>
+          </ChildNodes>
+        </Node>
+        <Node ToolID="119">
+          <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+            <Position x="1229" y="617" width="205" height="181" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Caption>ARIMA Model</Caption>
+              <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+              <Disabled value="False" />
+              <Folded value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <AnnotationText>ARIMA Model</AnnotationText>
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <ChildNodes>
+            <Node ToolID="112">
+              <GuiSettings>
+                <Position x="1254" y="666" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <Value name="mod_name">ARIMA_24</Value>
+                  <Value name="target_field">Units</Value>
+                  <Value name="use_covar">False</Value>
+                  <Value name="covars">""</Value>
+                  <Value name="use_covar_mean">True</Value>
+                  <Value name="use_covar_diff">False</Value>
+                  <Value name="freq_hourly">False</Value>
+                  <Value name="freq_daily">False</Value>
+                  <Value name="freq_weekdays">False</Value>
+                  <Value name="freq_weekly">True</Value>
+                  <Value name="freq_monthly">False</Value>
+                  <Value name="freq_quarterly">False</Value>
+                  <Value name="freq_annually">False</Value>
+                  <Value name="freq_other">False</Value>
+                  <Value name="custom_auto">False</Value>
+                  <Value name="first_dif">False</Value>
+                  <Value name="level_first_dif">0</Value>
+                  <Value name="max_p">2</Value>
+                  <Value name="max_q">2</Value>
+                  <Value name="seas_dif">False</Value>
+                  <Value name="level_seas_dif">0</Value>
+                  <Value name="s_max_P">1</Value>
+                  <Value name="s_max_Q">1</Value>
+                  <Value name="ic_aic">False</Value>
+                  <Value name="ic_aicc">True</Value>
+                  <Value name="ic_bic">False</Value>
+                  <Value name="full_enum">False</Value>
+                  <Value name="max_order">5</Value>
+                  <Value name="m_core">False</Value>
+                  <Value name="drift">True</Value>
+                  <Value name="box_cox">False</Value>
+                  <Value name="lambda">0.00</Value>
+                  <Value name="full_custom">False</Value>
+                  <Value name="p">0</Value>
+                  <Value name="d">0</Value>
+                  <Value name="q">0</Value>
+                  <Value name="S_P">0</Value>
+                  <Value name="S_D">0</Value>
+                  <Value name="S_Q">0</Value>
+                  <Value name="m_drift">False</Value>
+                  <Value name="m_box_cox">False</Value>
+                  <Value name="m_lambda">0.00</Value>
+                  <Value name="series_start">False</Value>
+                  <Value name="start_year">1980</Value>
+                  <Value name="start_month_qtr">1</Value>
+                  <Value name="forecast_periods">6</Value>
+                  <Value name="alteryx.week.US">True</Value>
+                  <Value name="alteryx.week.UK">False</Value>
+                  <Value name="alteryx.week.ISO8601">False</Value>
+                  <Value name="inches">True</Value>
+                  <Value name="in.w">5.00</Value>
+                  <Value name="in.h">5.50</Value>
+                  <Value name="centimeters">False</Value>
+                  <Value name="cm.w">13.00</Value>
+                  <Value name="cm.h">14.95</Value>
+                  <Value name="graph.resolution">1x</Value>
+                  <Value name="pointsize">10</Value>
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <AnnotationText>ARIMA</AnnotationText>
+                  <DefaultAnnotationText />
+                  <Left value="False" />
+                </Annotation>
+              </Properties>
+              <EngineSettings Macro="Predictive Tools\ARIMA.yxmc" />
+            </Node>
+            <Node ToolID="167">
+              <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+                <Position x="1314" y="714" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <TempFile>C:\Users\User\AppData\Local\Temp\Alteryx\Engine_26936_066467aa31824880bc792e24ee742f0a_\Engine_22292_762ef232633e4b2fa3e552edbabb0ccf_.yxdb</TempFile>
+                  <TempFileDataProfiling />
+                  <Layout>
+                    <ViewMode>Single</ViewMode>
+                    <ViewSize value="100" />
+                    <View1>
+                      <DefaultTab>Report</DefaultTab>
+                      <Hints>
+                        <Table />
+                      </Hints>
+                    </View1>
+                    <View2 />
+                  </Layout>
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText />
+                  <Left value="False" />
+                </Annotation>
+              </Properties>
+              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+            </Node>
+            <Node ToolID="168">
+              <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+                <Position x="1350" y="666" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <TempFile>C:\Users\User\AppData\Local\Temp\Alteryx\Engine_26936_066467aa31824880bc792e24ee742f0a_\Engine_22292_8916238ca64f499e9a2f15be4058b394_.yxdb</TempFile>
+                  <TempFileDataProfiling />
+                  <Layout>
+                    <ViewMode>Single</ViewMode>
+                    <ViewSize value="100" />
+                    <View1>
+                      <DefaultTab>Report</DefaultTab>
+                      <Hints>
+                        <Table />
+                      </Hints>
+                    </View1>
+                    <View2 />
+                  </Layout>
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText />
+                  <Left value="False" />
+                </Annotation>
+              </Properties>
+              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+            </Node>
+          </ChildNodes>
+        </Node>
+        <Node ToolID="133">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="1734" y="642" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\Users\User\AppData\Local\Temp\Alteryx\Engine_26936_066467aa31824880bc792e24ee742f0a_\Engine_22292_4d29f5c06b2e436996215a994c70b8f8_.yxdb</TempFile>
+              <TempFileDataProfiling />
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100" />
+                <View1>
+                  <DefaultTab>Profile</DefaultTab>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+                <View2 />
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+        <Node ToolID="164">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="1650" y="726" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\Users\User\AppData\Local\Temp\Alteryx\Engine_26936_066467aa31824880bc792e24ee742f0a_\Engine_22292_e5962ed5733941a5ac0365e8140acb9b_.yxdb</TempFile>
+              <TempFileDataProfiling />
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100" />
+                <View1>
+                  <DefaultTab>Report</DefaultTab>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+                <View2 />
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+      </ChildNodes>
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="92" Connection="Output" />
+      <Destination ToolID="91" Connection="Input" />
+    </Connection>
+    <Connection Wireless="True">
+      <Origin ToolID="92" Connection="Output" />
+      <Destination ToolID="137" Connection="Left" />
+    </Connection>
+    <Connection Wireless="True">
+      <Origin ToolID="132" Connection="Output" />
+      <Destination ToolID="137" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="94" Connection="Output" />
+      <Destination ToolID="93" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="94" Connection="Output" />
+      <Destination ToolID="95" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="107" Connection="Output" />
+      <Destination ToolID="110" Connection="Input" />
+    </Connection>
+    <Connection name="#1" Wireless="True">
+      <Origin ToolID="107" Connection="Output" />
+      <Destination ToolID="143" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="155" Connection="Output" />
+      <Destination ToolID="143" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="110" Connection="Output" />
+      <Destination ToolID="112" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="95" Connection="Output" />
+      <Destination ToolID="96" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="96" Connection="Output" />
+      <Destination ToolID="100" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="96" Connection="Output" />
+      <Destination ToolID="101" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="96" Connection="Output" />
+      <Destination ToolID="105" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="104" Connection="Output" />
+      <Destination ToolID="105" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="100" Connection="Output" />
+      <Destination ToolID="102" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="101" Connection="Output" />
+      <Destination ToolID="102" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="102" Connection="Join" />
+      <Destination ToolID="104" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="105" Connection="Join" />
+      <Destination ToolID="106" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="106" Connection="Output" />
+      <Destination ToolID="107" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="137" Connection="Join" />
+      <Destination ToolID="138" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="143" Connection="Output" />
+      <Destination ToolID="144" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="144" Connection="Output" />
+      <Destination ToolID="153" Connection="Targets" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="157" Connection="Output" />
+      <Destination ToolID="153" Connection="Source" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="153" Connection="Output" />
+      <Destination ToolID="156" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="156" Connection="Output" />
+      <Destination ToolID="159" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="158" Connection="Output" />
+      <Destination ToolID="163" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="159" Connection="Output" />
+      <Destination ToolID="158" Connection="Targets" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="160" Connection="Output" />
+      <Destination ToolID="158" Connection="Source" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="161" Connection="Output" />
+      <Destination ToolID="154" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="147" Connection="Output" />
+      <Destination ToolID="149" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="149" Connection="Output" />
+      <Destination ToolID="152" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="152" Connection="Output" />
+      <Destination ToolID="157" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="157" Connection="Output" />
+      <Destination ToolID="160" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="163" Connection="Output" />
+      <Destination ToolID="161" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="132" Connection="Output" />
+      <Destination ToolID="133" Connection="Input" />
+    </Connection>
+    <Connection Wireless="True">
+      <Origin ToolID="132" Connection="Output" />
+      <Destination ToolID="155" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="132" Connection="Interactive Viz" />
+      <Destination ToolID="164" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="132" Connection="Report" />
+      <Destination ToolID="165" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="112" Connection="Output" />
+      <Destination ToolID="132" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="112" Connection="Interactive" />
+      <Destination ToolID="167" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="112" Connection="Report" />
+      <Destination ToolID="168" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <IsTemplate value="False" />
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>Product Sales Workflow</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="4bcce36d-db85-44d0-9f0a-14e5e19a3f40" />
+      <Telemetry>
+        <PreviousWorkflowId value="5fae1780-8a41-4e01-91c1-70ee2dd5dd66" />
+        <OriginWorkflowId value="5781a5c3-5c32-4d30-9785-1162dab73a1f" />
+      </Telemetry>
+      <PlatformWorkflowId value="" />
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
